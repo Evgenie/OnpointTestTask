@@ -1,8 +1,8 @@
-import globals from "./globals";
-import popup from "./popup";
-import slide_1 from "./slide_1";
-import slide_2 from "./slide_2";
-import slide_3 from "./slide_3";
+import globals from './globals';
+import popup from './popup';
+import slide_1 from './slide_1';
+import slide_2 from './slide_2';
+import slide_3 from './slide_3';
 
 export type TAllImages = typeof globals &
 	typeof popup &

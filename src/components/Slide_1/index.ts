@@ -1,4 +1,4 @@
-import Slide_1 from "./Slide_1";
+import Slide_1 from './Slide_1';
 
 export { Slide_1 };
 

@@ -1,8 +1,7 @@
-import styled from "@emotion/styled";
-import { BACKGROUND } from "../../images";
+import styled from '@emotion/styled';
 
 export const CWrap = styled.div({
-	backgroundImage: `url(${BACKGROUND})`,
-	backgroundSize: "100% 100%",
-	height: "100vh",
+	marginLeft: '139px',
+	fontFamily: 'sans-serif',
+	fontSize: '60px',
 });

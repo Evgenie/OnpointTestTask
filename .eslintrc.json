@@ -7,8 +7,7 @@
 		"eslint:recommended",
 		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:prettier/recommended",
-		"prettier"
+		"plugin:prettier/recommended"
 	],
 	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
@@ -25,7 +24,9 @@
 		"prettier/prettier": [
 			"error",
 			{
-				"endOfLine": "auto"
+				"endOfLine": "auto",
+				"singleQuote": true,
+				"usePrettierrc": false
 			}
 		],
 		"arrow-body-style": "off",
