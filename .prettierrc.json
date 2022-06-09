@@ -4,5 +4,6 @@
 	"printWidth": 80,
 	"useTabs": true,
 	"arrowParens": "avoid",
-	"bracketSameLine": true
+	"bracketSameLine": true,
+	"singleQuote": true
 }

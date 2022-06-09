@@ -1,10 +1,13 @@
 import React from 'react';
-import { CWrap } from './Slide_1.style';
+import { CWrap, Discr, Hello } from './Slide_1.style';
 
 export const Slide_1 = () => {
 	return (
 		<CWrap>
-			<p>привет, это не коммерческое задание</p>
+			<Hello>привет, </Hello>
+			<Discr>
+				это <span>не</span> коммерческое задание
+			</Discr>
 		</CWrap>
 	);
 };

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Circe Regular';
+	src: local('Circe Regular'), local('Circe-Regular'),
+		url('Circe-Regular.woff2') format('woff2'),
+		url('Circe-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
