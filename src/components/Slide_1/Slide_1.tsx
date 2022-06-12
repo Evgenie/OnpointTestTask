@@ -1,5 +1,5 @@
 import React from 'react';
-import { CWrap, Discr, Hello } from './Slide_1.style';
+import { Arrow, Button, CWrap, Discr, Hello } from './Slide_1.style';
 
 export const Slide_1 = () => {
 	return (
@@ -7,6 +7,9 @@ export const Slide_1 = () => {
 			<Hello>привет, </Hello>
 			<Discr>
 				это <span>не</span> коммерческое задание
+				<Button>
+					<Arrow />
+				</Button>
 			</Discr>
 		</CWrap>
 	);

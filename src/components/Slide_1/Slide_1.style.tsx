@@ -23,3 +23,27 @@ export const Discr = styled.p({
 		fontFamily: '"Gilroy Extrabold", sans-serif',
 	},
 });
+
+export const Button = styled.button({
+	border: 'none',
+	borderRadius: '50px',
+	backgroundColor: '#ff6a9f',
+	display: 'inline-block',
+	height: '75px',
+	width: '240px',
+	marginLeft: '50px',
+});
+
+export const Arrow = styled.div({
+	backgroundColor: '#000',
+	height: '70%',
+	width: '23%',
+	borderRadius: '50%',
+	position: 'relative',
+	left: '10px',
+	// outlineStyle: 'groove ',
+	// outlineWidth: '4px',
+	// outlineColor: 'rgba(255,255,255,0.2)',
+	boxShadow:
+		'inset -5px 1px 1px rgba(154, 147, 140, 0.8), 2px 5px 1px rgba(255, 255, 255, 0.3)',
+});
