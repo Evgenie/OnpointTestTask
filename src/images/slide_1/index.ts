@@ -7,6 +7,7 @@ import SLIDE_1_CELL_5 from './slide_1_cell_5.png';
 import SLIDE_1_CELL_6 from './slide_1_cell_6.png';
 import SLIDE_1_PINK_SPERM_1 from './slide_1_pink_sperm_1.png';
 import SLIDE_1_PINK_SPERM_2 from './slide_1_pink_sperm_2.png';
+import ARROW from './arrow.png';
 
 export const allSlide_1 = {
 	SLIDE_1_BAQ,
@@ -18,6 +19,7 @@ export const allSlide_1 = {
 	SLIDE_1_CELL_6,
 	SLIDE_1_PINK_SPERM_1,
 	SLIDE_1_PINK_SPERM_2,
+	ARROW,
 };
 
 export default allSlide_1;

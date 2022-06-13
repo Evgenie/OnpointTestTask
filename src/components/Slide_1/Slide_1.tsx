@@ -9,6 +9,7 @@ export const Slide_1 = () => {
 				это <span>не</span> коммерческое задание
 				<Button>
 					<Arrow />
+					Что дальше?
 				</Button>
 			</Discr>
 		</CWrap>
