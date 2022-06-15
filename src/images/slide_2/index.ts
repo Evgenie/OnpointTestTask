@@ -1,19 +1,19 @@
-import SLIDE_2_BTN from './slide_2_btn.png';
-import SLIDE_2_SPERM_1 from './slide_2_sperm_1.png';
-import SLIDE_2_SPERM_2 from './slide_2_sperm_2.png';
-import SLIDE_2_SPERM_3 from './slide_2_sperm_3.png';
-import SLIDE_2_SPERM_4 from './slide_2_sperm_4.png';
-import SLIDE_2_SPERM_5 from './slide_2_sperm_5.png';
-import SLIDE_2_STICK from './slide_2_stick.png';
+import BTN from './btn.png';
+import SPERM_1 from './sperm_1.png';
+import SPERM_2 from './sperm_2.png';
+import SPERM_3 from './sperm_3.png';
+import SPERM_4 from './sperm_4.png';
+import SPERM_5 from './sperm_5.png';
+import STICK_BIG from './stick_big.png';
 
 export const allSlide_2 = {
-	SLIDE_2_BTN,
-	SLIDE_2_SPERM_1,
-	SLIDE_2_SPERM_2,
-	SLIDE_2_SPERM_3,
-	SLIDE_2_SPERM_4,
-	SLIDE_2_SPERM_5,
-	SLIDE_2_STICK,
+	BTN,
+	SPERM_1,
+	SPERM_2,
+	SPERM_3,
+	SPERM_4,
+	SPERM_5,
+	STICK_BIG,
 };
 
 export default allSlide_2;

@@ -18,7 +18,7 @@ export const Hello = styled.p({
 
 export const Discr = styled.p({
 	display: 'inline-block',
-	fontSize: '155px',
+	fontSize: '150px',
 	fontFamily: '"Gilroy Light", sans-serif',
 	lineHeight: '0.7',
 	'& > span': {
@@ -56,4 +56,21 @@ export const Arrow = styled.div({
 				18px -14px 3px -10px rgb(255 106 159),
 				-1.7px -1.5px 1px 2.2px rgba(40, 40, 60, 0.30),
 				1.5px 1.7px 3px 2px rgba(255, 255, 255, 0.55)`,
+});
+
+export const Baq = styled.img({
+	height: '14%',
+	width: '12%',
+	position: 'absolute',
+	top: '70px',
+	left: '0px',
+});
+
+export const Sperm_1 = styled.img({
+	height: '70%',
+	width: '75%',
+	position: 'absolute',
+	top: '55px',
+	right: '20px',
+	transform: 'rotate(-25deg)',
 });

@@ -1,5 +1,14 @@
 import React from 'react';
-import { Arrow, Button, CWrap, Discr, Hello } from './Slide_1.style';
+import { BAQ, SPERM_1 } from '../../images';
+import {
+	Arrow,
+	Baq,
+	Button,
+	CWrap,
+	Discr,
+	Hello,
+	Sperm_1,
+} from './Slide_1.style';
 
 export const Slide_1 = () => {
 	return (
@@ -12,6 +21,8 @@ export const Slide_1 = () => {
 					Что дальше?
 				</Button>
 			</Discr>
+			<Baq src={BAQ} alt="bacterium" />
+			<Sperm_1 src={SPERM_1} alt="spermatozoon" />
 		</CWrap>
 	);
 };
